@@ -1,0 +1,32 @@
+{
+  "name": "genpark-agent-tool-dag-speculative-prefetcher-skill",
+  "version": "1.0.0",
+  "description": "Topological tool dependency DAG scheduler and speculative prefetcher resolving agent tool execution graphs with parallel batching and speculative argument evaluation.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "tool-dag",
+    "parallel-execution",
+    "speculative-prefetch",
+    "langgraph",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "register_task",
+      "description": "Register tool execution task with input arguments and upstream dependencies."
+    },
+    {
+      "name": "build_topological_plan",
+      "description": "Compute topological order and parallel execution waves."
+    },
+    {
+      "name": "simulate_dag_execution",
+      "description": "Execute scheduled tool DAG with speculative parallel resolution."
+    },
+    {
+      "name": "run_dag_benchmark",
+      "description": "Run tool dependency DAG scheduler benchmark."
+    }
+  ]
+}
